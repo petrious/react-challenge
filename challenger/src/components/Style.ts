@@ -7,6 +7,7 @@ export const CardContainer = styled.div`
   flex-direction: column;
   padding: 12rem 4rem;
   gap:2rem;
+  overflow-wrap: anywhere;
   @media (min-width: 767px) {
     width:600px;
   }

@@ -4,6 +4,6 @@ export interface GeralState {
 }
 
 export const GERAL_INITIAL_STATE: GeralState = {
-  firstName: '',
-  lastName: ''
+  firstName: 'Breaking',
+  lastName: 'Bad'
 };

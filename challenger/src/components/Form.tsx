@@ -42,6 +42,7 @@ function Form() {
             id="firstName"
             name="firstName"
             value={firstNameLocal}
+            maxLength={50}
             onChange={handleNameChange}
           />
         </ContainerInputName>
@@ -49,6 +50,7 @@ function Form() {
           className="InputForm"
           label="Last Name"
           classNameLabel="Label"
+          maxLength={50}
           id="lastName"
           name="lastName"
           value={lastNameLocal}
