@@ -25,6 +25,7 @@ export const CardContainer = styled.div`
 `;
 export const CardWords = styled.div`
   color: #e1e1e1;
+  overflow-wrap: anywhere;
   font-size: 6rem;
   font-weight: 700;
   display: flex;
