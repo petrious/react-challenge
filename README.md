@@ -1,8 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Breakify
+
+The Breakify project aims to provide a user-friendly interface where users can input words into text fields. When a word is entered, the application checks if the first two letters of each word match any element symbol in the periodic table. If there's a match, the matched portion of the word is highlighted.
 
 ## Getting Started
 
-First, run the development server:
+
+1. **Prerequisites:**
+Node v18 +  installed on your machine
+to run the development server:
+2. **Running:**
 
 ```bash
 npm run dev
@@ -13,6 +19,13 @@ pnpm dev
 # or
 bun dev
 ```
+
+You can use :
+```bash
+npm run lint
+```
+
+To check issues or warnings.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
