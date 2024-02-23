@@ -12,15 +12,22 @@ export const CardContainer = styled.div`
   }
   @media only screen and (max-width: 959px) {
     font-size: 0.8rem;
+    padding: 6rem 1rem;
+
   }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     font-size: 0.8rem;
+    padding: 6rem 1rem;
+
   }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     font-size: 0.8rem;
+    padding: 4rem 1rem;
+
   }
   @media only screen and (max-width: 479px) {
     font-size: 0.8rem;
+    padding: 3rem 0.8rem;
   }
 `;
 export const CardWords = styled.div`
